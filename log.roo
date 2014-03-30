@@ -1,0 +1,9 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-30 10:59:05
+project --topLevelPackage com.springsource.showdomilhao
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY 
+entity jpa --class ~.domain.Usuario --activeRecord false --testAutomatically 
+field string --fieldName nome --sizeMin 2 --notNull
+field string --fieldName senha --sizeMin 2 --notNull 
+field email template 
+// [failed] field email template --fieldName email 
+// [failed] field email template --fieldName email
